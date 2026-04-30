@@ -1,0 +1,17 @@
+Model,Split,Accuracy,Precision,Recall,F1-Score,ROC-AUC
+Logistic Regression,Validation,0.731,0.1187,0.8387,0.208,0.8319
+Logistic Regression,Test,0.7449,0.11,0.6875,0.1897,0.7952
+Decision Tree Classifier,Validation,0.8601,0.0909,0.2581,0.1345,0.566
+Decision Tree Classifier,Test,0.8792,0.1299,0.3125,0.1835,0.5618
+Random Forest Classifier,Validation,0.8451,0.1513,0.5806,0.24,0.813
+Random Forest Classifier,Test,0.8358,0.1197,0.4375,0.1879,0.7873
+Gradient Boosting Classifier,Validation,0.7799,0.1299,0.7419,0.2212,0.8304
+Gradient Boosting Classifier,Test,0.787,0.1166,0.5938,0.1949,0.7896
+K-Nearest Neighbors Classifier,Validation,0.9579,0.0,0.0,0.0,0.7434
+K-Nearest Neighbors Classifier,Test,0.9539,0.0,0.0,0.0,0.7275
+Support Vector Classifier,Validation,0.7948,0.1104,0.5484,0.1838,0.7701
+Support Vector Classifier,Test,0.8114,0.1095,0.4688,0.1775,0.716
+Soft Voting Ensemble (Top 3),Validation,0.7935,0.1377,0.7419,0.2323,0.8307
+Bayesian Weighted Ensemble (Top 3),Validation,0.7921,0.1369,0.7419,0.2312,0.8308
+Soft Voting Ensemble (Top 3),Test,0.7924,0.1288,0.6562,0.2154,0.7901
+Bayesian Weighted Ensemble (Top 3),Test,0.7924,0.1288,0.6562,0.2154,0.79
